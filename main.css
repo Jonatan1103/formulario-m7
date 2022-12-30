@@ -48,12 +48,18 @@ form {
   border: 2px solid rgb(197, 3, 3);
 }
 
+.message {
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+}
+
 .msg-success {
-  color: rgb(33, 160, 1);
+  background-color: rgb(33, 160, 1);
 }
 
 .msg-error {
-  color: rgb(197, 3, 3);
+  background-color: rgb(197, 3, 3);
 }
 
 button {

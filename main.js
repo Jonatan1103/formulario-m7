@@ -23,5 +23,20 @@ formNumber.addEventListener('submit', (event) => {
     msgSuccess.classList.add('msg-error')
     msgSuccess.innerHTML = ''
     msgSuccess.innerHTML = `Campo <strong>A</strong> deve ser menor que Campo <strong>B</strong>`
+
+    inputA.value = ''
+    inputB.value = ''
   }
+})
+
+inputA.addEventListener('click', () => {
+  msgSuccess.innerHTML = ''
+  msgSuccess.classList.remove('msg-success')
+  msgSuccess.classList.remove('msg-error')
+})
+
+inputB.addEventListener('click', () => {
+  msgSuccess.innerHTML = ''
+  msgSuccess.classList.remove('msg-success')
+  msgSuccess.classList.remove('msg-error')
 })
