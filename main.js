@@ -1,7 +1,6 @@
 const inputA = document.getElementById('input-value-a')
 const inputB = document.getElementById('input-value-b')
 const formNumber = document.getElementById('formulario-numero')
-const buttonSendNumber = document.getElementById('btn-send-number')
 const msgSuccess = document.querySelector('.message')
 
 formNumber.addEventListener('submit', (event) => {
