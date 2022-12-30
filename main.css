@@ -10,7 +10,50 @@ input, button {
   padding: 8px;
   margin-bottom: 8px;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 6px;
+}
+
+.container {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container img {
+  width: 600px;
+  border-radius: 6px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.forms-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+form {
+  width: 100%;
+  margin-right: 4px;
+}
+
+.success {
+  border: 2px solid rgb(41, 197, 3);
+}
+
+.error {
+  border: 2px solid rgb(197, 3, 3);
+}
+
+.msg-success {
+  color: rgb(33, 160, 1);
+}
+
+.msg-error {
+  color: rgb(197, 3, 3);
 }
 
 button {
